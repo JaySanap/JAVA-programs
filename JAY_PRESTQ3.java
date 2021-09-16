@@ -1,0 +1,18 @@
+package com.company;
+import java.util.Scanner;
+public class JAY_PRESTQ3 {
+    public static void main(String[] args) {
+        String website;
+        Scanner sc=new Scanner(System.in);
+        website= sc.next();
+        if (website.endsWith(".org")){
+            System.out.println(" This is an organization website ");
+        }
+        else if (website.endsWith(".com")){
+            System.out.println(" This is an commercial website ");
+        }
+        else if (website.endsWith(".in")){
+            System.out.println(" This is an indian website");
+        }
+    }
+}
